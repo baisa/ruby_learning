@@ -1,11 +1,11 @@
 
-  print "Write a sentence : "
+  print "Write a sentence: "
   array_of_sentences = []
 
   while sentence = gets.chomp
     
     break if (sentence == "END")
-    print "Write a sentence : "
+    print "Write a sentence: "
     array_of_sentences << sentence
     
   end
